@@ -71,6 +71,24 @@
         app:layout_constraintStart_toStartOf="@+id/password_layout"
         app:layout_constraintTop_toBottomOf="@+id/password_layout" />
 
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:paddingLeft="24dp"
+        android:paddingTop="16dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="16dp"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:theme="@style/Theme.MaterialComponents"
+        app:layout_constraintBottom_toBottomOf="@+id/login_login_btn"
+        app:layout_constraintStart_toEndOf="@+id/login_login_btn"
+        app:layout_constraintTop_toTopOf="@+id/login_login_btn" />
+
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="160sp"
@@ -81,32 +99,15 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
-    <LinearLayout
+    <ImageButton
+        android:id="@+id/login_fingerprint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginBottom="16dp"
+        style="@style/title_button_style"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="0dp"
-            android:layout_marginBottom="28dp"
-            android:fontFamily="@font/montserrat"
-            android:text="@string/do_not_have_an_account"
-            android:textColor="@color/darkGrey" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_sign_up"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginStart="2dp"
-            android:background="@color/white"
-            android:stateListAnimator="@null"
-            android:text="@string/sign_up"
-            android:textAllCaps="false" />
-    </LinearLayout>
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_fingerprint"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

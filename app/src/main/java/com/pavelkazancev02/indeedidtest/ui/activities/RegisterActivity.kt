@@ -11,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.zxing.integration.android.IntentIntegrator
 import com.pavelkazancev02.indeedidtest.R
 import com.pavelkazancev02.indeedidtest.Utils
+import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_register.*
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator
@@ -24,6 +25,10 @@ class RegisterActivity: AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
         setContentView(R.layout.activity_register)
+        register_login_btn.setOnClickListener{
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
 
         register_register_btn.setOnClickListener {
             registerUser()
