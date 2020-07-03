@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IndeedIdTest</string>
+    <string name="confirm_email">Confirm Email</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="do_not_have_an_account">Do not have an account?</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="email">Email</string>
+    <string name="top_movies">Top Movies</string>
+    <string name="saved_movies">Saved movies</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release_date">Release date:</string>
+    <string name="popularity_score">Popularity score:</string>
+    <string name="login">Login</string>
+</resources>

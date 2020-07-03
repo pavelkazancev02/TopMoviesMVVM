@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/topMoviesFragment"
+        android:icon="@drawable/ic_top_movies"
+        android:title="Top movies" />
+
+    <item
+        android:id="@+id/savedMoviesFragment"
+        android:icon="@drawable/ic_saved_movies"
+        android:title="Saved movies" />
+
+</menu>

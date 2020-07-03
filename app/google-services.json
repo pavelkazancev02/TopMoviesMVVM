@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "624610840377",
+    "firebase_url": "https://indeedidtest-cf885.firebaseio.com",
+    "project_id": "indeedidtest-cf885",
+    "storage_bucket": "indeedidtest-cf885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624610840377:android:728e26fa5c23e64ea622e8",
+        "android_client_info": {
+          "package_name": "com.pavelkazancev02.indeedidtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624610840377-uacj5e2qc6cm4evm0btca0795p79cr3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-XiA8YY0944f9Paf6_XLSp8hjAkbikLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624610840377-uacj5e2qc6cm4evm0btca0795p79cr3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

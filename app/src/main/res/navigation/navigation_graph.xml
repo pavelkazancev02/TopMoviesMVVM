@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/topMoviesFragment">
+    <fragment
+        android:id="@+id/topMoviesFragment"
+        android:name="com.pavelkazancev02.indeedidtest.ui.top_movies.TopMoviesFragment"
+        android:label="fragment_top_movies">
+    </fragment>
+    <fragment
+        android:id="@+id/savedMoviesFragment"
+        android:name="com.pavelkazancev02.indeedidtest.ui.saved_movies.SavedMoviesFragment"
+        android:label="fragment_saved_movies">
+    </fragment>
+</navigation>
